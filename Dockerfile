@@ -12,4 +12,4 @@ RUN apt-get install -y --no-install-recommends texlive-latex-recommended texlive
 
 WORKDIR /home/build
 
-CMD pdflatex *.tex
+CMD /home/build/incontainer.bash

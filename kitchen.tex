@@ -3,14 +3,19 @@
 \usepackage{enumitem}  % for tight lists
 \usepackage{color}
 \usepackage{textcomp}
+\usepackage{makeidx}
+
+\makeindex
 
 \begin{document}
 
-\section*{\centerline{Gina's Kitchen Cheat Sheet}}
+\renewcommand{\indexname}{Gina's Kitchen Cheat Sheets}
+\printindex
 
 \begin{table}[ht]
 \fbox{
 \begin{minipage}[t]{2.25in}
+\index{Feed the Mother}
 \centering Feed the Mother
 \begin{itemize}[noitemsep]
  \item $\sfrac{1}{4}$ cup {\color{blue}starter}
@@ -22,7 +27,8 @@
 \hspace{0.25in}
 \fbox{
 \begin{minipage}[t]{3in}
-\centering Rice in Dutch oven
+\index{Rice in Dutch Oven}
+\centering Rice in Dutch Oven
 \begin{description}[noitemsep]
  \item[Preheat] oven to {\color{red}375{\textdegree}F}
  \item[Rinse] 1 cup {\color{blue}brown rice}
@@ -37,6 +43,7 @@
 
 \noindent\fbox{
 \begin{minipage}[t]{5.75in}
+\index{Tomato Basil Relish}
 \centering Tomato Basil Relish
 \begin{itemize}[noitemsep]
 \item In mortar and pestle, mash together 1 tsp {\color{blue}kosher salt} and 1 clove {\color{blue}minced garlic}.
@@ -51,7 +58,8 @@
 
 \noindent\fbox{
 \begin{minipage}[t]{5.75in}
-\centering Spicy honey-sesame glaze
+\index{Spicy Honey-Sesame Glaze}
+\centering Spicy Honey-Sesame Glaze
 \begin{itemize}[noitemsep]
 \item In a small saucepan, whisk together $\sfrac{1}{4}$ cup {\color{blue}reduced-sodium tamari or soy sauce}, 3 tbsp {\color{blue}honey or maple syrup}, 2 tbsp {\color{blue}rice-wine vinegar}, 2 tbsp {\color{blue}chili-garlic sauce}, 2 tsp {\color{blue}toasted sesame oil}.
   \item Bring to gentle boil over {\color{red}medium heat}, stirring often, reducing heat as needed, cooking until reduced by half, about 10 minutes.
@@ -64,6 +72,7 @@
 
 \noindent\fbox{
 \begin{minipage}[t]{5.75in}
+\index{Whole-Wheat Honey Bread}
 \centering Whole-Wheat Honey Bread
 \begin{description}[noitemsep]
   \item[Sponge] 1 cup {\color{blue}bread flour}, $\sfrac{1}{4}$ cup {\color{blue}honey}, 2 tsp {\color{blue}yeast}, 3 cups {\color{blue}warm (110-115{\textdegree}F) water}.  Let sit about 5 minutes, until foamy.
